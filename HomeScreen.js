@@ -86,7 +86,10 @@ export default class HomeScreen extends React.Component {
 
             </View>
             <View style={{flex: 0.5}}>
-                <Text> Holi </Text>
+                <Button
+                    title="About"
+                    onPress={ () => this.props.navigation.navigate('About')}
+                />
             </View>
           
           </View>
